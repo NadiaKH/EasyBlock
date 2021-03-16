@@ -1,0 +1,15 @@
+{
+   "name" : "EasyBlock BETA",
+   "version" : "0.8",
+   "description" : "Simple, but functional AdBlock.",
+   "permissions" : ["webRequest", "webRequestBlocking", "<all_urls>"],
+   "background" : {
+       "scripts" : ["background.js"],
+       "persistent" : true
+   },
+   "browser_action" : {
+       "default_popup" : "popup.html"
+   },
+   "manifest_version" : 2
+
+}

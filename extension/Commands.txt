@@ -1,0 +1,15 @@
+request:
+'GET_ENABLED' -> получить состояние адблокера
+'GET_HISTORY' -> получить историю блокировок
+'GET_DOMAINS' -> получить домены
+'ADD_DOMAIN' -> добавить домены
+'REMOVE_DOMAIN' -> удаление домена
+'SET_ENABLED' -> задать состояние адблокера
+'CLEAR_HISTORY' -> очистить историю блокировок
+
+
+blocked
+{
+    count : 1,
+    url : "advertisement"
+}
